@@ -1,0 +1,537 @@
+.clientelle,
+.clientelle * {
+  box-sizing: border-box;
+}
+.clientelle {
+  background: #ffffff;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.navigation {
+  background: #aad1fc;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+  padding: 10px 200px 10px 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 78px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 85px;
+  position: relative;
+  overflow: hidden;
+}
+.logo {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 330px;
+  position: relative;
+  overflow: hidden;
+}
+.component-1 {
+  flex-shrink: 0;
+  width: 320px;
+  height: 39px;
+  position: relative;
+}
+.bi-d-bra-n-talks {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.menu {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 683px;
+  position: relative;
+  overflow: hidden;
+}
+.up-buttons {
+  flex-shrink: 0;
+  width: 113px;
+  height: 23px;
+  position: relative;
+}
+.button {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.up-buttons2 {
+  flex-shrink: 0;
+  width: 98px;
+  height: 23px;
+  position: relative;
+}
+.up-buttons3 {
+  flex-shrink: 0;
+  width: 94px;
+  height: 23px;
+  position: relative;
+}
+.up-buttons4 {
+  flex-shrink: 0;
+  width: 92px;
+  height: 23px;
+  position: relative;
+}
+.rg-3 {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 450px;
+  position: relative;
+  object-fit: cover;
+  aspect-ratio: 1440/450;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: row;
+  gap: 82px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-3 {
+  flex-shrink: 0;
+  width: 690px;
+  height: 168px;
+  position: static;
+}
+.architecture-interior-design-social-media-agencies-artists-vastu-consultants {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h10-font-family, "Montserrat-SemiBold", sans-serif);
+  font-size: var(--h10-font-size, 32px);
+  font-weight: var(--h10-font-weight, 600);
+  position: absolute;
+  left: 0px;
+  top: 54.4px;
+  width: 690px;
+  height: 116px;
+}
+.we-support-creative-and-professional-service-providers-in-accessing-government-tenders-by-simplifying-eligibility-documentation-and-bid-submission-processes {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h11-font-family, "Montserrat-Regular", sans-serif);
+  font-size: var(--h11-font-size, 16px);
+  font-weight: var(--h11-font-weight, 400);
+  position: absolute;
+  left: 5px;
+  top: 186.4px;
+  width: 668px;
+  height: 36px;
+}
+.group-2 {
+  flex-shrink: 0;
+  width: 268.44px;
+  height: 276.8px;
+  position: static;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-3 {
+  width: 158.06px;
+  height: 133.1px;
+  position: absolute;
+  left: 796px;
+  top: 143.7px;
+  transform-origin: 0 0;
+  transform: rotate(-0.617deg) scale(1, 1);
+  object-fit: cover;
+  aspect-ratio: 158.06/133.1;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-1 {
+  width: 136.19px;
+  height: 117.1px;
+  position: absolute;
+  left: 903px;
+  top: 47.47px;
+  transform-origin: 0 0;
+  transform: rotate(-0.617deg) scale(1, 1);
+  object-fit: cover;
+  aspect-ratio: 136.19/117.1;
+}
+.image-36 {
+  width: 143px;
+  height: 151px;
+  position: absolute;
+  left: 772px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 143/151;
+}
+.frame-15 {
+  display: flex;
+  flex-direction: row;
+  gap: 98px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-32 {
+  flex-shrink: 0;
+  width: 308px;
+  height: 260px;
+  position: static;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-16 {
+  width: 159px;
+  height: 145px;
+  position: absolute;
+  left: 83px;
+  top: 115px;
+  object-fit: cover;
+  aspect-ratio: 159/145;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-6 {
+  width: 135px;
+  height: 132px;
+  position: absolute;
+  left: 173px;
+  top: 9px;
+  object-fit: cover;
+  aspect-ratio: 135/132;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-15 {
+  width: 173px;
+  height: 133px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 173/133;
+}
+.group-4 {
+  flex-shrink: 0;
+  width: 672px;
+  height: 170px;
+  position: static;
+}
+.plastic-industry-machinery-spare-parts-manufacturing-electrical-products-crowd-control-equipment {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h10-font-family, "Montserrat-SemiBold", sans-serif);
+  font-size: var(--h10-font-size, 32px);
+  font-weight: var(--h10-font-weight, 600);
+  position: absolute;
+  left: 406px;
+  top: 45px;
+  width: 672px;
+  height: 116px;
+}
+.we-support-creative-and-professional-service-providers-in-accessing-government-tenders-by-simplifying-eligibility-documentation-and-bid-submission-processes2 {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h11-font-family, "Montserrat-Regular", sans-serif);
+  font-size: var(--h11-font-size, 16px);
+  font-weight: var(--h11-font-weight, 400);
+  position: absolute;
+  left: 406px;
+  top: 179px;
+  width: 668px;
+  height: 36px;
+}
+.frame-16 {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-5 {
+  flex-shrink: 0;
+  width: 668px;
+  height: 150px;
+  position: static;
+}
+.infrastructure-industry-railways-aerospace-sector {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h10-font-family, "Montserrat-SemiBold", sans-serif);
+  font-size: var(--h10-font-size, 32px);
+  font-weight: var(--h10-font-weight, 600);
+  position: absolute;
+  left: 0px;
+  top: 43px;
+  width: 668px;
+  height: 76px;
+}
+.we-provide-structured-tendering-support-for-large-scale-and-technical-projects-ensuring-compliance-with-sector-specific-requirements-and-procurement-standards {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h11-font-family, "Montserrat-Regular", sans-serif);
+  font-size: var(--h11-font-size, 16px);
+  font-weight: var(--h11-font-weight, 400);
+  position: absolute;
+  left: 0px;
+  top: 133px;
+  width: 611px;
+  height: 60px;
+}
+.group-42 {
+  flex-shrink: 0;
+  width: 309px;
+  height: 236px;
+  position: static;
+}
+.image-37 {
+  width: 141px;
+  height: 178px;
+  position: absolute;
+  left: 850px;
+  top: 58px;
+  object-fit: cover;
+  aspect-ratio: 141/178;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-12 {
+  width: 176px;
+  height: 161px;
+  position: absolute;
+  left: 682px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 176/161;
+}
+.frame-17 {
+  display: flex;
+  flex-direction: row;
+  gap: 110px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-52 {
+  flex-shrink: 0;
+  width: 247px;
+  height: 222px;
+  position: static;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-11 {
+  width: 154px;
+  height: 114px;
+  position: absolute;
+  left: 42px;
+  top: 108px;
+  object-fit: cover;
+  aspect-ratio: 154/114;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-19 {
+  width: 122px;
+  height: 118px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  object-fit: cover;
+  aspect-ratio: 122/118;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-7 {
+  width: 125px;
+  height: 137px;
+  position: absolute;
+  left: 122px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 125/137;
+}
+.group-6 {
+  flex-shrink: 0;
+  width: 730px;
+  height: 156px;
+  position: static;
+}
+.facility-management-amc-service-providers-event-management {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h10-font-family, "Montserrat-SemiBold", sans-serif);
+  font-size: var(--h10-font-size, 32px);
+  font-weight: var(--h10-font-weight, 600);
+  position: absolute;
+  left: 357px;
+  top: 33px;
+  width: 730px;
+  height: 75px;
+}
+.we-help-service-based-businesses-bid-confidently-by-managing-documentation-service-listings-and-tender-submissions-for-government-contracts {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h11-font-family, "Montserrat-Regular", sans-serif);
+  font-size: var(--h11-font-size, 16px);
+  font-weight: var(--h11-font-weight, 400);
+  position: absolute;
+  left: 359px;
+  top: 130px;
+  width: 633px;
+  height: 59px;
+}
+.frame-18 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-7 {
+  flex-shrink: 0;
+  width: 676px;
+  height: 182px;
+  position: static;
+}
+.pharmaceutical-sector-investment-consultants-insurance-service-providers {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h10-font-family, "Montserrat-SemiBold", sans-serif);
+  font-size: var(--h10-font-size, 32px);
+  font-weight: var(--h10-font-weight, 600);
+  position: absolute;
+  left: 0px;
+  top: 24.5px;
+  width: 676px;
+  height: 106px;
+}
+.we-assist-healthcare-and-safety-focused-businesses-in-navigating-regulatory-requirements-and-submitting-accurate-compliant-bids {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h11-font-family, "Montserrat-Regular", sans-serif);
+  font-size: var(--h11-font-size, 16px);
+  font-weight: var(--h11-font-weight, 400);
+  position: absolute;
+  left: 0px;
+  top: 146.5px;
+  width: 611px;
+  height: 60px;
+}
+.group-62 {
+  flex-shrink: 0;
+  width: 333px;
+  height: 231px;
+  position: static;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-13 {
+  width: 177px;
+  height: 166px;
+  position: absolute;
+  left: 832px;
+  top: 16px;
+  object-fit: cover;
+  aspect-ratio: 177/166;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-18 {
+  width: 175px;
+  height: 231px;
+  position: absolute;
+  left: 676px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 175/231;
+}
+.frame-19 {
+  display: flex;
+  flex-direction: row;
+  gap: 118px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-72 {
+  flex-shrink: 0;
+  width: 281px;
+  height: 246px;
+  position: static;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-8 {
+  width: 169px;
+  height: 190px;
+  position: absolute;
+  left: 0px;
+  top: 56px;
+  object-fit: cover;
+  aspect-ratio: 169/190;
+}
+.gemini-generated-image-9-ffp-359-ffp-359-ffp-17 {
+  width: 140px;
+  height: 173px;
+  position: absolute;
+  left: 141px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 140/173;
+}
+.group-8 {
+  flex-shrink: 0;
+  width: 631px;
+  height: 150px;
+  position: static;
+}
+.food-industry-handicraft-handloom {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h10-font-family, "Montserrat-SemiBold", sans-serif);
+  font-size: var(--h10-font-size, 32px);
+  font-weight: var(--h10-font-weight, 600);
+  position: absolute;
+  left: 399px;
+  top: 48px;
+  width: 631px;
+  height: 76px;
+}
+.we-help-traditional-and-product-based-businesses-access-government-markets-by-simplifying-onboarding-cataloguing-and-tender-participation {
+  color: #000000;
+  text-align: left;
+  font-family: var(--h11-font-family, "Montserrat-Regular", sans-serif);
+  font-size: var(--h11-font-size, 16px);
+  font-weight: var(--h11-font-weight, 400);
+  position: absolute;
+  left: 399px;
+  top: 138px;
+  width: 611px;
+  height: 60px;
+}

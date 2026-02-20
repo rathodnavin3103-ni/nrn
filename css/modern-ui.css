@@ -1,0 +1,428 @@
+/* Shared Modern UI Styles */
+@import url('vars.css');
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: var(--h5-font-family, "Roboto", sans-serif);
+    line-height: 1.6;
+}
+
+/* Common Hero Section */
+.page-hero {
+    background: linear-gradient(120deg, #2c3e50 0%, #3498db 100%);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.page-hero h1 {
+    font-family: var(--h1-font-family, "Montserrat", sans-serif);
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.page-hero p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+/* Stats Section (Used in About) */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+}
+
+.stat-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-10px);
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #3498db;
+    display: block;
+    margin-bottom: 10px;
+    font-family: var(--h1-font-family);
+}
+
+.stat-label {
+    font-size: 1.1rem;
+    color: #666;
+    font-weight: 500;
+}
+
+/* Cards Grid (Services/Clientelle) */
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto 80px;
+    padding: 0 20px;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-bottom: 5px solid transparent;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    border-bottom-color: #3498db;
+}
+
+.feature-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background: #eee;
+}
+
+.feature-content {
+    padding: 30px;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.feature-text {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Certifications/Logos */
+.logos-section {
+    background: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.logos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 40px auto 0;
+}
+
+.logo-item {
+    max-width: 150px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+.logo-item:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+/* Section Headings */
+.section-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #2c3e50;
+    position: relative;
+}
+
+.section-heading::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #3498db;
+    margin: 15px auto 0;
+    border-radius: 2px;
+}
+
+/* Modern Navigation Bar */
+.navigation {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 15px 40px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    width: 100%;
+}
+
+.navigation .logo {
+    width: auto;
+    border: none;
+    padding: 0;
+}
+
+.bi-d-bra-n-talks {
+    color: #2c3e50;
+    font-family: var(--h1-font-family);
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+/* Menu Improvements */
+.navigation .menu {
+    width: auto;
+    gap: 30px;
+    border: none;
+    padding: 0;
+}
+
+/* Resetting legacy div wrappers for buttons */
+.up-buttons,
+.up-buttons2,
+.up-buttons3,
+.up-buttons4 {
+    width: auto;
+    height: auto;
+}
+
+/* Navigation Links */
+.navigation .menu a.button,
+.navigation .menu a.button2 {
+    color: #555;
+    font-family: var(--h5-font-family);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.navigation .menu a.button:hover,
+.navigation .menu a.button2:hover {
+    color: #3498db;
+    cursor: pointer;
+}
+
+/* Underline Animation */
+.navigation .menu a.button::after,
+.navigation .menu a.button2::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #3498db;
+    transition: width 0.3s ease;
+}
+
+.navigation .menu a.button:hover::after,
+.navigation .menu a.button2:hover::after {
+    width: 100%;
+}
+
+/* Active State for Navigation */
+.navigation .menu a.button.active,
+.navigation .menu a.button2.active {
+    color: #3498db;
+    font-weight: 700;
+}
+
+.navigation .menu a.button.active::after,
+.navigation .menu a.button2.active::after {
+    width: 100%;
+    background-color: #3498db;
+}
+
+/* Global Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-down {
+    animation: fadeInDown 0.8s ease-out;
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.8s ease-out 0.2s backwards;
+}
+
+.fade-in-up-delay {
+    animation: fadeInUp 0.8s ease-out 0.4s backwards;
+}
+
+/* Contact/Connect Section */
+.connect-section {
+    background: #2c3e50;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.connect-section h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.connect-section h2::after {
+    background: #3498db;
+}
+
+.social-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.social-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 30px;
+    border-radius: 15px;
+    width: 220px;
+    transition: transform 0.3s, background 0.3s;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.social-card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.social-icon {
+    margin-bottom: 15px;
+    display: block;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+.social-card:hover .social-icon img {
+    transform: scale(1.1);
+}
+
+.social-label {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+/* GeM Services Detail Section */
+.gem-details-section {
+    background-color: #f8f9fa;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.gem-details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 40px auto 0;
+    text-align: left;
+}
+
+.gem-detail-item {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 5px solid #3498db;
+}
+
+.gem-detail-item:hover {
+    transform: translateX(10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border-left-color: #2c3e50;
+    cursor: default;
+}
+
+.gem-check-icon {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.gem-detail-text {
+    font-weight: 500;
+    color: #333;
+    font-size: 1.05rem;
+}
